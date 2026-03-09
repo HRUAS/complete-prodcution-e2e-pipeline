@@ -15,7 +15,7 @@ pipeline{
     }
 
     stages{
-        stage("Checkout  the SCM"){
+        stage("Checkout the the SCM"){
             steps {
                 git branch: 'main', credentialsId: 'github', url: 'https://github.com/HRUAS/complete-prodcution-e2e-pipeline.git'
             }
